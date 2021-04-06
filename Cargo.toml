@@ -1,0 +1,11 @@
+[package]
+name = "check-barcode"
+version = "0.1.0"
+authors = ["Anang Aji Rahmawan <anang.aji@hotmail.com>"]
+edition = "2018"
+
+[dependencies]
+reqwest = { version = "*", features = ["blocking"] }
+select = "*"
+scraper = "*"
+prettytable-rs = "*"
